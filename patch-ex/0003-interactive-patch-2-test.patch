@@ -1,0 +1,20 @@
+From e8a2f7010cf5aa2d9b4cde6b090c38f061e2e4ec Mon Sep 17 00:00:00 2001
+From: vijayakumar1806-yahoo <vvijayakumarm@yahoo.com>
+Date: Sat, 5 Oct 2024 20:46:45 +0530
+Subject: [PATCH 3/3] interactive patch 2 test
+
+---
+ ititest2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ititest2.txt
+
+diff --git a/ititest2.txt b/ititest2.txt
+new file mode 100644
+index 0000000..6e14850
+--- /dev/null
++++ b/ititest2.txt
+@@ -0,0 +1 @@
++Interactive patch 2
+-- 
+2.46.0.windows.1
+

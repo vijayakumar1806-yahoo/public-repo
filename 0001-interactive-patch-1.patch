@@ -1,0 +1,151 @@
+From a45f1b0e9dde77a0bf0adc65b526e42954f6c26c Mon Sep 17 00:00:00 2001
+From: vijayakumar1806-yahoo <vvijayakumarm@yahoo.com>
+Date: Sat, 5 Oct 2024 20:46:12 +0530
+Subject: [PATCH] interactive patch 1
+
+---
+ patch-ex/0001-a1-changes.patch     | 20 ++++++++++++++++++++
+ patch-ex/0001-new-patch-2.patch    | 20 --------------------
+ patch-ex/0002-a2changes-text.patch | 20 ++++++++++++++++++++
+ patch-ex/0003-a3-changes.patch     | 20 ++++++++++++++++++++
+ patch-ex/0004-a4-changes.patch     | 20 ++++++++++++++++++++
+ 5 files changed, 80 insertions(+), 20 deletions(-)
+ create mode 100644 patch-ex/0001-a1-changes.patch
+ delete mode 100644 patch-ex/0001-new-patch-2.patch
+ create mode 100644 patch-ex/0002-a2changes-text.patch
+ create mode 100644 patch-ex/0003-a3-changes.patch
+ create mode 100644 patch-ex/0004-a4-changes.patch
+
+diff --git a/patch-ex/0001-a1-changes.patch b/patch-ex/0001-a1-changes.patch
+new file mode 100644
+index 0000000..d433676
+--- /dev/null
++++ b/patch-ex/0001-a1-changes.patch
+@@ -0,0 +1,20 @@
++From ddfc5a4afaa29df1a30035fee5fc512e5440a460 Mon Sep 17 00:00:00 2001
++From: mvijayakumar1806 <vvijayakumarm@gmail.com>
++Date: Wed, 2 Oct 2024 22:48:01 +0530
++Subject: [PATCH 1/4] a1 changes;
++
++---
++ a1txt.txt | 1 +
++ 1 file changed, 1 insertion(+)
++ create mode 100644 a1txt.txt
++
++diff --git a/a1txt.txt b/a1txt.txt
++new file mode 100644
++index 0000000..2ab1861
++--- /dev/null
+++++ b/a1txt.txt
++@@ -0,0 +1 @@
+++a1 changes
++-- 
++2.46.0.windows.1
++
+diff --git a/patch-ex/0001-new-patch-2.patch b/patch-ex/0001-new-patch-2.patch
+deleted file mode 100644
+index 0e04185..0000000
+--- a/patch-ex/0001-new-patch-2.patch
++++ /dev/null
+@@ -1,20 +0,0 @@
+-From 98922d86c5c27b309f562067bd40e0c84ba534a0 Mon Sep 17 00:00:00 2001
+-From: mvijayakumar1806 <vvijayakumarm@gmail.com>
+-Date: Wed, 2 Oct 2024 22:34:45 +0530
+-Subject: [PATCH] new patch 2
+-
+----
+- newpathc2.txt | 1 +
+- 1 file changed, 1 insertion(+)
+- create mode 100644 newpathc2.txt
+-
+-diff --git a/newpathc2.txt b/newpathc2.txt
+-new file mode 100644
+-index 0000000..0d9bf07
+---- /dev/null
+-+++ b/newpathc2.txt
+-@@ -0,0 +1 @@
+-+patch new 2
+--- 
+-2.46.0.windows.1
+-
+diff --git a/patch-ex/0002-a2changes-text.patch b/patch-ex/0002-a2changes-text.patch
+new file mode 100644
+index 0000000..32681e1
+--- /dev/null
++++ b/patch-ex/0002-a2changes-text.patch
+@@ -0,0 +1,20 @@
++From 5fec0b4c520b45123c6c7ae804c1751881a08083 Mon Sep 17 00:00:00 2001
++From: mvijayakumar1806 <vvijayakumarm@gmail.com>
++Date: Wed, 2 Oct 2024 22:48:39 +0530
++Subject: [PATCH 2/4] a2changes text
++
++---
++ a2.txttxt | 1 +
++ 1 file changed, 1 insertion(+)
++ create mode 100644 a2.txttxt
++
++diff --git a/a2.txttxt b/a2.txttxt
++new file mode 100644
++index 0000000..15a28a3
++--- /dev/null
+++++ b/a2.txttxt
++@@ -0,0 +1 @@
+++a2 changes
++-- 
++2.46.0.windows.1
++
+diff --git a/patch-ex/0003-a3-changes.patch b/patch-ex/0003-a3-changes.patch
+new file mode 100644
+index 0000000..38bf387
+--- /dev/null
++++ b/patch-ex/0003-a3-changes.patch
+@@ -0,0 +1,20 @@
++From 20a987a47f53655cf0996fe47b299fe0fe9bcebb Mon Sep 17 00:00:00 2001
++From: mvijayakumar1806 <vvijayakumarm@gmail.com>
++Date: Wed, 2 Oct 2024 22:56:01 +0530
++Subject: [PATCH 3/4] a3 changes
++
++---
++ a3.txt | 1 +
++ 1 file changed, 1 insertion(+)
++ create mode 100644 a3.txt
++
++diff --git a/a3.txt b/a3.txt
++new file mode 100644
++index 0000000..3da3540
++--- /dev/null
+++++ b/a3.txt
++@@ -0,0 +1 @@
+++a3 changes
++-- 
++2.46.0.windows.1
++
+diff --git a/patch-ex/0004-a4-changes.patch b/patch-ex/0004-a4-changes.patch
+new file mode 100644
+index 0000000..a199848
+--- /dev/null
++++ b/patch-ex/0004-a4-changes.patch
+@@ -0,0 +1,20 @@
++From d24437367af31ba5402d1a3872da3f178fcc50d6 Mon Sep 17 00:00:00 2001
++From: mvijayakumar1806 <vvijayakumarm@gmail.com>
++Date: Wed, 2 Oct 2024 22:56:18 +0530
++Subject: [PATCH 4/4] a4 changes
++
++---
++ a34.txt | 1 +
++ 1 file changed, 1 insertion(+)
++ create mode 100644 a34.txt
++
++diff --git a/a34.txt b/a34.txt
++new file mode 100644
++index 0000000..207243a
++--- /dev/null
+++++ b/a34.txt
++@@ -0,0 +1 @@
+++a4 changes
++-- 
++2.46.0.windows.1
++
+-- 
+2.46.0.windows.1
+
